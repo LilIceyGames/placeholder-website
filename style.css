@@ -1,8 +1,8 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #1a1a1a; /* Dark background color */
-    color: #fff; /* Text color */
+    background-color: #1a1a1a;
+    color: #fff;
     font-family: 'Arial', sans-serif;
 }
 
@@ -15,9 +15,9 @@ body {
 }
 
 h2 {
-    color: #4da6ff; /* Blueish text color for headings */
+    color: #4da6ff;
 }
 
 p {
-    color: #ccc; /* Lighter text color for paragraphs */
+    color: #ccc;
 }
