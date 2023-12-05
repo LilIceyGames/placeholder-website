@@ -14,10 +14,51 @@ body {
     height: 100vh;
 }
 
+h1 {
+    color: #0077ed;
+}
+
 h2 {
     color: #4da6ff;
 }
 
 p {
     color: #ccc;
+}
+
+header {
+    background-color: #0a0a0a;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: inline;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    color: #909090;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #4da6ff;
 }
