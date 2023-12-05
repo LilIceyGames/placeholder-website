@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a; /* Dark background color */
+    color: #fff; /* Text color */
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h2 {
+    color: #4da6ff; /* Blueish text color for headings */
+}
+
+p {
+    color: #ccc; /* Lighter text color for paragraphs */
+}
