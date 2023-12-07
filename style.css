@@ -63,3 +63,42 @@ a {
 a:hover {
     color: #4da6ff;
 }
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  /*background-color: #0a0a0a;*/
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  /*bottom: 50px;*/
+  bottom: 0px;
+  /*right: 10px;*/
+  right: 0px;
+  z-index: 1000;
+}
+
+.links img {
+  margin-right: 10px;
+  filter: invert(1);
+  width: 50px;
+}
+
+.links img:last-child {
+  margin-right: 0;
+}
+
+footer p {
+  color: #909090;
+  margin: 1px;
+  padding: 5px;
+}
